@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.post {
+    width: 400px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.user-info h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.user-info p {
+    font-size: 12px;
+    color: gray;
+}
+
+.options {
+    font-size: 24px;
+    color: gray;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+.post-actions span {
+    cursor: pointer;
+}
+
+.post-actions .save {
+    margin-left: auto;
+}
+
+.post-likes {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.post-likes strong {
+    font-weight: bold;
+}
+
+.post-description {
+    padding: 10px 15px;
+    font-size: 12px;
+    color: gray;
+}
