@@ -88,3 +88,15 @@ body {
     font-size: 12px;
     color: gray;
 }
+
+.post-actions span {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px; /* Tamaño uniforme de los iconos */
+    margin: 0 10px;
+}
+
+.post-actions i {
+    vertical-align: middle;
+}
+
